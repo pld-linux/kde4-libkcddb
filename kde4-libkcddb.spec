@@ -6,7 +6,7 @@ Summary:	CDDB accessing library
 Summary(pl.UTF-8):	Biblioteka dostępu do baz CDDB
 Name:		kde4-%{orgname}
 Version:	4.9.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -81,6 +81,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_includedir}/libkcddb
 %attr(755,root,root) %{_libdir}/libkcddb.so
+%dir %{_libdir}/cmake/libkcddb
 %{_libdir}/cmake/libkcddb/LibkcddbConfig.cmake
 %{_libdir}/cmake/libkcddb/LibkcddbTargets-pld.cmake
 %{_libdir}/cmake/libkcddb/LibkcddbTargets.cmake
