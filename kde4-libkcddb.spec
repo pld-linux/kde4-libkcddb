@@ -5,12 +5,12 @@
 Summary:	CDDB accessing library
 Summary(pl.UTF-8):	Biblioteka dostępu do baz CDDB
 Name:		kde4-%{orgname}
-Version:	4.9.5
+Version:	4.10.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	b1e0760c6ff825629cc1500f203ee2aa
+# Source0-md5:	2e18d9bf592c263b17fe2ab75df380ff
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libmusicbrainz5-devel
@@ -72,7 +72,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libkcddb.so.4.*.*
 %attr(755,root,root) %ghost %{_libdir}/libkcddb.so.?
 %attr(755,root,root) %{_libdir}/kde4/kcm_cddb.so
-%{_datadir}/apps/kconf_update/kcmcddb-emailsettings.upd
 %{_datadir}/config.kcfg/libkcddb.kcfg
 %{_datadir}/kde4/services/libkcddb.desktop
 %{_docdir}/kde/HTML/en/kcontrol/cddbretrieval
