@@ -5,12 +5,12 @@
 Summary:	CDDB accessing library
 Summary(pl.UTF-8):	Biblioteka dostępu do baz CDDB
 Name:		kde4-%{orgname}
-Version:	4.12.2
+Version:	4.12.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	84e06d05d677bb445cb370d882ce7e87
+# Source0-md5:	18df04666660cab7f2c1950544a48b68
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libmusicbrainz5-devel
